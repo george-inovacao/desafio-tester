@@ -1,0 +1,1 @@
+a formula está errada, as operações matematicas tambem =)
