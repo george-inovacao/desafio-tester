@@ -156,9 +156,7 @@ O pytest é um framework usado para a criação de testes de uma maneira mais di
 #### Instalando [Pytest](https://pytest.org)
 
 ```bash
-npm install jest --save-dev 
-npm run test
-jest --init 
+pip install -U pytest
 ```
 
 #### Hello World
