@@ -13,7 +13,44 @@ Este resultado foi fruto de um trabalho colaborativo e de caráter experimental.
 
 * Pedro Gomide
 
-
+- [Resultado do DoJo #1: Desafio Tester](#resultado-do-dojo-1-desafio-tester)
+      - [Senseis:](#senseis)
+      - [Nonsei:](#nonsei)
+  - [Node JS](#node-js)
+      - [Participantes:](#participantes)
+    - [Linter](#linter)
+      - [Instalando eslint:](#instalando-eslint)
+      - [Configurando:](#configurando)
+        - [{path_do_projeto}/.eslintrc.json](#path_do_projetoeslintrcjson)
+      - [Hello World](#hello-world)
+    - [Teste Unitário](#teste-unitário)
+      - [Instalando Jest](#instalando-jest)
+      - [Hello World](#hello-world-1)
+        - [{path_do_projeto}/main.test.ts](#path_do_projetomaintestts)
+        - [{path_do_projeto}/main.ts](#path_do_projetomaints)
+      - [Rodando](#rodando)
+  - [Python](#python)
+      - [Participantes:](#participantes-1)
+    - [Linter](#linter-1)
+      - [Instalando pylint:](#instalando-pylint)
+      - [Configurando:](#configurando-1)
+      - [Hello World](#hello-world-2)
+    - [Teste Unitário](#teste-unitário-1)
+      - [Instalando Pytest](#instalando-pytest)
+      - [Hello World](#hello-world-3)
+        - [{path_do_projeto}/main.py](#path_do_projetomainpy)
+        - [{path_do_projeto}/main.py](#path_do_projetomainpy-1)
+      - [Rodando](#rodando-1)
+  - [Dotnet Core](#dotnet-core)
+      - [Participantes:](#participantes-2)
+    - [Linter](#linter-2)
+        - [Instalando o StypeCops](#instalando-o-stypecops)
+    - [Teste Unitário](#teste-unitário-2)
+      - [Instalando XUnit](#instalando-xunit)
+      - [Hello World](#hello-world-4)
+        - [{path_do_projeto}/{nome_do_projeto}/main.cs](#path_do_projetonome_do_projetomaincs)
+        - [{path_do_projeto}/{nome_do_projeto}.Test/main.test.cs](#path_do_projetonome_do_projetotestmaintestcs)
+      - [Rodando](#rodando-2)
 ---
 
 ## Node JS
@@ -225,8 +262,13 @@ pytest main.py
 ### Linter
 Não foi encontrado ferramenta que utiliza linha de comando, dificultando uma integração com DevOps.
 
-No editor, VSCode, é exibido os erros ao longo do código ou no própria interface (Ctrl+Shift+M), cabendo o próprio desenvolvedor ter o hábito de corrigir.
-    
+É possível utilizar o StypeCops, exibindo os erros no processo de build ou na próprio interface do VSCode `(Ctrl+Shift+M)`.
+
+##### Instalando o [StypeCops](https://www.nuget.org/packages/StyleCop.Analyzers)
+Adicione os seguintes arquivos juntamente com o arquivo da sua solução (`.sln`):
+- Directory.Builds.props: configura a solução para usar o pacote e incluir os demais arquivos de configuração.
+- StyleCop.ruleset: habilita ou desabilita as regras, podendo alterar entre erro ou alertas. Pode alterar regras do styleCop ou do próprio gerenciador da Microsoft.
+- stylecop.json (opcional): possibilita a customização da ferramenta.
 
 ### Teste Unitário
 

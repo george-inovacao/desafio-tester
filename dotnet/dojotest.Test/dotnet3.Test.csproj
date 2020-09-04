@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
@@ -14,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\dojotest3\dojotest3.csproj" />
+    <ProjectReference Include="..\dojotest\dojotest3.csproj" />
   </ItemGroup>
 
 </Project>
