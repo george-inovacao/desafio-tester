@@ -13,7 +13,7 @@ Este resultado foi fruto de um trabalho colaborativo e de caráter experimental.
 
 * Pedro Gomide
 
-- [Resultado do DoJo #1: Desafio Tester](#resultado-do-dojo-1-desafio-tester)
+Sumário:
       - [Senseis:](#senseis)
       - [Nonsei:](#nonsei)
   - [Node JS](#node-js)
